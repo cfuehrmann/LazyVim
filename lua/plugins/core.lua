@@ -5,4 +5,5 @@ return {
       colorscheme = "tokyonight-night",
     },
   },
+  { "sindrets/diffview.nvim" },
 }
