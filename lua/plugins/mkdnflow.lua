@@ -1,12 +1,5 @@
 return {
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "tokyonight-night",
-    },
-  },
-  { "sindrets/diffview.nvim" },
-  {
     "jakewvincent/mkdnflow.nvim",
     rocks = "luautf8", -- Ensures optional luautf8 dependency is installed
     config = function()
