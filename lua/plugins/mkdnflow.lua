@@ -2,6 +2,7 @@ return {
   {
     "jakewvincent/mkdnflow.nvim",
     rocks = "luautf8", -- Ensures optional luautf8 dependency is installed
+    ft = { "markdown" },
     opts = {
       modules = {
         bib = true,
