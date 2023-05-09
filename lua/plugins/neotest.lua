@@ -59,6 +59,13 @@ return {
           debug_file,
           desc = "Debug file",
         },
+        {
+          "<leader>ts",
+          function()
+            require("neotest").summary.toggle()
+          end,
+          desc = "Toggle summary",
+        },
       }
     end,
   },
