@@ -6,3 +6,7 @@ local opt = vim.opt
 
 opt.number = false
 opt.relativenumber = false
+
+if vim.g.neovide then
+  vim.o.guifont = "JetBrains Mono:h11"
+end
