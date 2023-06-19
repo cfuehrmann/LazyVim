@@ -29,9 +29,16 @@ return {
       "nvim-treesitter/nvim-treesitter",
       "antoinemadec/FixCursorHold.nvim",
       "Issafalcon/neotest-dotnet",
+      "rouge8/neotest-rust",
     },
     opts = function(_, opts)
-      opts.adapters = { require("neotest-dotnet")({}) }
+      opts.adapters = {
+        require("neotest-dotnet")({}),
+        require("neotest-rust")({
+          args = { "--no-capture" },
+          dap_adapter = "lldb",
+        }),
+      }
     end,
     keys = function()
       return {
