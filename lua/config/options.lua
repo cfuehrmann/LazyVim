@@ -5,7 +5,7 @@
 local opt = vim.opt
 
 opt.number = false
-opt.relativenumber = true
+opt.relativenumber = false
 
 if vim.g.neovide then
   vim.o.guifont = "JetBrains Mono,Symbols Nerd Font Mono,Noto Color Emoji:h11"
