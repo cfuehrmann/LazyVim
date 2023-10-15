@@ -2,6 +2,4 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-require("which-key").register({
-  ["<leader>t"] = { name = "+tests" },
-})
+require("which-key").register({})
