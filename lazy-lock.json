@@ -2,7 +2,6 @@
   "FixCursorHold.nvim": { "branch": "master", "commit": "1900f89dc17c603eec29960f57c00bd9ae696495" },
   "LazyVim": { "branch": "main", "commit": "f29543f2c9323ae84d0979f36598c0fb78ed767a" },
   "LuaSnip": { "branch": "master", "commit": "0df29db3543837f8b41597f2640397c5ec792b7b" },
-  "SchemaStore.nvim": { "branch": "main", "commit": "a4606cb497ab17b59357e5ceed9686791db4d9bf" },
   "bufferline.nvim": { "branch": "main", "commit": "357cc8f8eeb64702e6fcf2995e3b9becee99a5d3" },
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
   "cmp-emoji": { "branch": "main", "commit": "19075c36d5820253d32e2478b6aaf3734aeaafa0" },
