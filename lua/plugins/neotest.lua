@@ -17,44 +17,5 @@ return {
         }),
       }
     end,
-    keys = function()
-      return {
-        {
-          "<leader>tr",
-          function()
-            require("neotest").run.run()
-          end,
-          desc = "Run nearest",
-        },
-        {
-          "<leader>tR",
-          function()
-            require("neotest").run.run(vim.fn.expand("%"))
-          end,
-          desc = "Run file",
-        },
-        {
-          "<leader>td",
-          function()
-            require("neotest").run.run({ strategy = "dap" })
-          end,
-          desc = "Debug nearest",
-        },
-        {
-          "<leader>tD",
-          function()
-            require("neotest").run.run({ vim.fn.expand("%"), strategy = "dap" })
-          end,
-          desc = "Debug file",
-        },
-        {
-          "<leader>ts",
-          function()
-            require("neotest").summary.toggle()
-          end,
-          desc = "Toggle summary",
-        },
-      }
-    end,
   },
 }
