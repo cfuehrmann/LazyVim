@@ -2,3 +2,9 @@ LazyVim
 Neovim
 PipeWire
 EndeavourOS
+IONOS
+Interflex
+Allegion
+Ciklum
+AlleGPT
+pgAdmin
