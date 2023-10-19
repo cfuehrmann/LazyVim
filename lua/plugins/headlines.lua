@@ -1,6 +1,10 @@
 return {
   {
     "lukas-reineke/headlines.nvim",
-    enabled = false,
+    opts = {
+      markdown = {
+        fat_headlines = false,
+      },
+    },
   },
 }
