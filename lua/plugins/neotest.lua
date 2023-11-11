@@ -13,7 +13,7 @@ return {
         require("neotest-dotnet")({}),
         require("neotest-rust")({
           args = { "--no-capture" },
-          dap_adapter = "lldb",
+          dap_adapter = "codelldb",
         }),
       }
     end,
