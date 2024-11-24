@@ -10,7 +10,7 @@ return {
 
       dap.adapters.netcoredbg = {
         type = "executable",
-        command = vim.fn.expand("$HOME/.local/share/LazyVim/mason/bin/netcoredbg"),
+        command = vim.fn.expand("$HOME/.local/share/nvim/mason/bin/netcoredbg"),
         args = { "--interpreter=vscode" },
       }
 
