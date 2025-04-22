@@ -46,3 +46,9 @@ vim.api.nvim_create_user_command("CopyPath", function()
   vim.fn.setreg("+", path)
   vim.notify('Copied "' .. path .. '" to the clipboard!')
 end, {})
+
+-- The default was moved to "~/.local/share/nvim/spell", but that is not under
+-- source control.
+local config_path = vim.fn.stdpath("config")
+local spell_path = config_path .. "/spell/en.utf-8.add"
+vim.opt.spellfile = spell_path
