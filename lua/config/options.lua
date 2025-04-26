@@ -8,7 +8,7 @@ opt.number = false
 opt.relativenumber = false
 
 if vim.g.neovide then
-  vim.o.guifont = "JetBrains Mono,Symbols Nerd Font Mono,Noto Color Emoji:h10"
+  vim.o.guifont = "JetBrains Mono,Symbols Nerd Font Mono,Noto Color Emoji:h11"
   vim.g.neovide_scale_factor = 1.0
   local change_scale_factor = function(delta)
     vim.g.neovide_scale_factor = vim.g.neovide_scale_factor * delta
