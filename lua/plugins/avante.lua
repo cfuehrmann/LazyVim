@@ -23,6 +23,9 @@ return {
         temperature = 0,
         max_tokens = 8000,
       },
+      behaviour = {
+        enable_claude_text_editor_tool_mode = true,
+      },
     },
     -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
     build = "make",
