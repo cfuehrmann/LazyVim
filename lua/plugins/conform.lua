@@ -8,6 +8,7 @@ return {
     formatters_by_ft = {
       cs = { "csharpier" },
       sql = { "pgformatter" },
+      kdl = { "kdlfmt" },
     },
     formatters = {
       csharpier = {
